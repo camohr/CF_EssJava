@@ -1,6 +1,6 @@
 :root {
     --primary-color:   #1d5888;
-    --secondary-color: #d8c955;
+    --secondary-color: #d7bc46;
     --dark-color:      #2a2a2a;
     --white-color:     #dff3e4;
 }
@@ -46,6 +46,18 @@ h1,h2,h3,h4,h5,h6 {
 
 .css3icon {
     color:rgb(11,82,214);
+}
+
+.checklist >li i {
+    color: var(--secondary-color);
+}
+
+
+code[class*="language-"], 
+pre [class*="language-"] {
+    white-space: pre-wrap;
+    word-break: break-all;
+    word-wrap: break-word;
 }
 
 main>.container {
