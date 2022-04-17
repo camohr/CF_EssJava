@@ -1,7 +1,7 @@
 :root {
     --primary-color:   #1d5888;
     --secondary-color: #d8c955;
-    --dark-color:      #442a2a;
+    --dark-color:      #2a2a2a;
     --white-color:     #dff3e4;
 }
 
@@ -18,17 +18,34 @@ footer {
     padding-right: 1rem;
 }
 
-footer .social>a {
-    color: var(white-color);
-    opacity: 0.65;
+.social-link {
+    color: var(--white-color);
+    opacity: 0.5;
 }
 
-footer .social>a:hover {
+.social-link:hover {
+    color: var(--white-color);
     opacity: 1;
 }
 
 h1,h2,h3,h4,h5,h6 {
     columns: var(--primary-color);
+}
+
+.bsicon {
+    color:purple;
+}
+
+.jsicon {
+    color:rgb(241, 218, 17);
+}
+
+.html5icon {
+    color:orangered;
+}
+
+.css3icon {
+    color:rgb(11,82,214);
 }
 
 main>.container {
